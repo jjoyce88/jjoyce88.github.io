@@ -1,0 +1,15 @@
+header
+{
+	background-color: deepskyblue;
+	color: white;
+	border-style: ridge;
+	border-color: yellow;
+	text-align: center;
+}
+
+#textBlock
+{
+	background-color: yellow;
+	border-style: solid;
+	border-color: red;
+}
