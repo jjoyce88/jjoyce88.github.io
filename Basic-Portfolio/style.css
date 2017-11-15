@@ -1,0 +1,126 @@
+body
+{
+	background-color: whitesmoke;
+}
+
+header
+{
+	background-color: white;
+	color: grey;
+	height: 77px;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+#headerContainer
+{
+	width: 960px;
+	margin-left: 100px;
+}
+
+#myName
+{
+	background-color: dodgerblue;
+	color: lightcyan;
+	float: left;
+	padding: 20px;
+	margin-top: 0px;
+}
+
+#mainBox
+{
+	background-color: white;
+	width: 638px;
+	padding: 10px;
+	margin-left: 100px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+#connections
+{
+	background-color: white;
+	color: dodgerblue;
+	width: 270px;
+	padding:10px;
+	margin-left: 40px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+#divider1
+{
+	float:left;
+	background-color: lightgrey;
+	height: 3px;
+	width: 95%;
+	margin-bottom: 25px;
+}
+
+#divider2
+{
+	float: left;
+	background-color: lightgrey;
+	height: 2px;
+	width: 90%;
+}
+
+#aboutMeImg
+{
+	width: 150px;
+	height: 150px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+#boxText
+{
+	line-height: 20px;
+}
+
+.connectionIcon
+{
+	height: 70px;
+	width: 70px;
+	float: left;
+	padding: 10px;
+}
+.connectionIcon:hover
+{
+	background-color: whitesmoke;
+}
+
+.heading1
+{
+	color: deepskyblue;
+}
+
+.navigation
+{
+	font-family: Arial;
+	color: grey;
+	font-size: 16px;
+	float: right;
+	padding: 15px 10px;
+	margin: 15px 0px;
+}
+.navigation:hover
+{
+	background-color: whitesmoke;
+}
+
+.navDivider
+{
+	background-color: lightgray;
+	height: 40px;
+	width: 2px;
+	float: right;
+	margin: 20px 10px;
+}
