@@ -1,0 +1,218 @@
+body
+{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin: 0px;
+	background-image: url("../assets/concrete_seamless.png");
+	position: relative;
+}
+
+header
+{
+	background-color: #ffffff;
+	color: grey;
+	height: 80px;
+	width: 100%;
+	border-bottom: solid
+	border-color: #cccccc;
+
+}
+
+footer
+{
+	background-color: #666666;
+	height: 80px;
+	width: 100%;
+	border-top: solid;
+	border-width: 10px;
+	border-color: #4aaaa5;
+	clear: both;
+}
+
+/* IDs */
+
+#headerContainer
+{
+	width: 960px;
+	margin-left: 100px;
+}
+
+#footerText
+{
+	text-align: center;
+	margin-top: 30px;
+	color: #cccccc;
+}
+
+#myName
+{
+	background-color: #4aaaa5;
+	color: lightcyan;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	padding: 20px;
+	margin-top: 0px;
+	height: 40px;
+	text-align: center;
+}
+
+#mainBox
+{
+	background-color: #ffffff;
+	width: 608px;
+	margin-left: 100px;
+	float: left;
+	border-style: solid;
+	border-color: #dddddd;
+	padding: 15px;
+	margin-bottom: 50px;
+}
+
+#connections
+{
+	background-color: #ffffff;
+	color: dodgerblue;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 270px;
+	padding:10px;
+	margin-left: 40px;
+	float: left;
+	border-style: solid;
+	border-color: #dddddd;
+}
+
+#divider
+{
+	float: left;
+	background-color: lightgrey;
+	height: 3px;
+	width: 95%;
+	margin-bottom: 5%;
+}
+
+#aboutMeImg
+{
+	width: 150px;
+	height: 150px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+#boxText
+{
+	line-height: 20px;
+}
+
+#form
+{
+	margin-left: 25px;
+}
+
+#formMessage
+{
+	height: 250px;
+	width: 550px;
+	padding: 5px;
+	float: left;
+	margin-bottom: 25px;
+	border: 1px solid #dddddd;
+}
+
+#submitButton
+{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px 30px;
+	float: left;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+
+/* Classes */
+
+.connectionIcon
+{
+	height: 70px;
+	width: 70px;
+	float: left;
+	padding: 10px;
+}
+.connectionIcon:hover
+{
+	background-color: whitesmoke;
+}
+
+.heading
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.navigation
+{
+	text-decoration: none;
+	float: right;
+	padding: 10px;
+	margin: 20px 0px;
+}
+.navigation:hover
+{
+	background-color: whitesmoke;
+}
+.navigation:visited
+{
+	color: #777777;
+}
+.navigation:link
+{
+	color: #777777;
+}
+
+.navDivider
+{
+	background-color: whitesmoke;
+	height: 30px;
+	width: 2px;
+	float: right;
+	margin: 25px 5px;
+}
+
+.portfolioBox
+{
+	width: 250px;
+	height: 250px;
+	float: left;
+	padding: 25px;
+}
+
+.portfolioImg
+{
+	width: inherit;
+	height: inherit;
+}
+
+.portfolioLabel
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: inherit;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px 0px;
+	margin-top: -50px;
+	margin-bottom: 20px;
+	position: absolute;
+}
+
+.formLine
+{
+	width: 550px;
+	padding: 5px;
+	border: 1px solid #dddddd;
+	margin-bottom: 10px; 
+}

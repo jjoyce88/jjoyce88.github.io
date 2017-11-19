@@ -1,0 +1,77 @@
+footer
+{
+	position: static;
+}
+
+#headerContainer
+{
+	width: 100%;
+	margin-left: 0;
+}
+
+#myName
+{
+	margin-left: 5%;
+}
+
+#mainBox
+{
+	margin: 0px 0px 25px 5%;
+	margin-left: 5%;
+	width: 50%;
+}
+
+#connections
+{
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 0px;
+}
+
+#form
+{
+	margin-left: 5%;
+}
+
+#formMessage
+{
+	width: 90%;
+	height: 225px;
+}
+
+.connectionIcon
+{
+	height: 22.5%;
+	width: 22.5%;
+}
+
+.portfolioBox
+{
+	width: 90%;
+	height: 90%;
+	padding: 5%;
+	margin-left: 1%;
+}
+
+.portfolioImg
+{
+	width: 100%;
+	height: 100%;
+	float: none;
+	margin-bottom: 20%;
+}
+
+.portfolioLabel
+{
+	font-size-adjust: 10%;
+	width: 100%;
+	padding: 3% 0px;
+	margin-top: -40%;
+	margin-bottom: 15%;
+	position: relative;
+}
+
+.formLine
+{
+	width: 90%;
+}
