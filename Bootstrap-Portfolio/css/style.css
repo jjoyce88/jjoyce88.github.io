@@ -1,0 +1,130 @@
+body
+{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url("../assets/concrete_seamless.png");
+}
+
+#navHeader
+{
+	background-color: #ffffff;
+}
+
+#footer
+{
+	background-color: #666666;
+	margin-top: 80px;
+}
+
+#footerText
+{
+	text-align: center;
+	margin-top: 20px;
+	color: #cccccc;
+}
+
+#myName
+{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	line-height: 5px;
+	text-align: center;
+	padding: 29px 20px;
+	margin-left: 110px;
+}
+
+#mainBox
+{
+	background-color: #ffffff;
+	border-color: #dddddd;
+	padding: 20px;
+}
+
+#connections
+{
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-style: solid;
+	border-color: #dddddd;
+	padding: 10px;
+}
+
+#form
+{
+	margin-left: 25px;
+}
+
+#formMessage
+{
+	height: 250px;
+	width: 550px;
+	padding: 5px;
+	float: left;
+	margin-bottom: 25px;
+	border: 1px solid #dddddd;
+}
+
+#submitButton
+{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px 30px;
+	float: left;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+
+/* Classes */
+
+.navbar
+{
+	height: 60px;
+}
+
+.heading
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.navigation
+{
+	font-size: 20px;
+	line-height: 15px;
+	text-decoration: none;
+	margin-right: 15px;
+}
+.navigation:hover
+{
+	background-color: whitesmoke;
+}
+.navigation:visited
+{
+	color: #777777;
+}
+.navigation:link
+{
+	color: #777777;
+}
+
+.portfolioLabel
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+}
+
+.formLine
+{
+	width: 550px;
+	padding: 5px;
+	border: 1px solid #dddddd;
+	margin-bottom: 10px; 
+}
