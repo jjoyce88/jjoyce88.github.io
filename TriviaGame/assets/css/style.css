@@ -1,0 +1,115 @@
+.answer-button
+{
+	width: 329px;
+	min-height: 62px;
+
+	font-size: 24px;
+	color: white;
+	text-shadow:
+	4px 4px 1px #1E1E1E,
+	3px 4px 1px #1E1E1E,
+	2px 4px 1px #1E1E1E,
+	1px 4px 1px #1E1E1E,
+	0px 4px 1px #1E1E1E,
+	-1px 4px 1px #1E1E1E,
+	-2px 4px 1px #1E1E1E,
+	-2px 3px 1px #1E1E1E,
+	-2px 2px 1px #1E1E1E,
+	-2px 1px 1px #1E1E1E,
+	-2px 0px 1px #1E1E1E,
+	-2px -1px 1px #1E1E1E,
+	-1px -2px 1px #1E1E1E,
+	0px -2px 1px #1E1E1E,
+	1px -2px 1px #1E1E1E,
+	2px -2px 1px #1E1E1E,
+	3px -2px 1px #1E1E1E,
+	4px -2px 1px #1E1E1E,
+	4px -1px 1px #1E1E1E,
+	4px 0px 1px #1E1E1E,
+	4px 1px 1px #1E1E1E,
+	4px 2px 1px #1E1E1E,
+	4px 3px 1px #1E1E1E;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: padding-box;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.left-btn
+{
+	padding-left: 15px;
+}
+.right-btn
+{
+	padding-left: 55px;
+}
+
+.guess-left
+{
+	background-image: url("../images/GuessButtonLeft.png");
+}
+.guess-left-correct
+{
+	background-image: url("../images/GuessButtonLeftCorrect.png");
+}
+.guess-left-incorrect
+{
+	background-image: url("../images/GuessButtonLeftIncorrect.png");
+}
+
+.guess-right
+{
+	background-image: url("../images/GuessButtonRight.png");
+}
+.guess-right-correct
+{
+	background-image: url("../images/GuessButtonRightCorrect.png");
+}
+.guess-right-incorrect
+{
+	background-image: url("../images/GuessButtonRightIncorrect.png");
+}
+
+#heading
+{
+	height: 230px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#titleImage
+{
+	height: inherit;
+	padding: 10px 0px 10px 0px;
+}
+
+#game-timer
+{
+	margin-bottom: 25px;
+	background-image: url("../images/TimerBackground.png");
+	height: 85px;
+	background-size: 645px 85px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#timer-display
+{
+	color: #222023;
+	margin-left: 375px;
+	font-size: 38px;
+	line-height: 87.5px;
+}
+
+body
+{
+	background-image: url("../images/FD_Background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Passion One', cursive;
+}

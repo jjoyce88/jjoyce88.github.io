@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Super Smash Bros. Trivia</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="page-header text-center" id="heading">
+			<img id="titleImage" src="assets/images/Title.png">
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="text-center" id="game-timer">
+			<h3 id="timer-display"></h3>
+		</div>
+
+		<div class="jumbotron text-center" id="main-display">
+			<button class="btn btn-primary btn-lg text-center" id="start-button"><h2>READY TO PLAY</h2></button>
+			<h1 id="question">QUESTION</h1>
+			<h3 id="comment">On to the next round!</h3>
+			<div class="row results">
+				<div class="col-md-6 text-center">
+					<h2>Correct Answers: <span id="correct">0</span></h2>
+				</div>
+				<div class="col-md-6 text-center">
+					<h2>Incorrect Answers: <span id="incorrect">0</span></h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-md-offset-2 text-center">
+					<button class="left-btn answer-button guess-left" id="answer-1"><h1>Answer 1</h2></button>
+				</div>
+				<div class="col-md-3 col-md-offset-2 text-center">
+					<button class="right-btn answer-button guess-right" id="answer-2"><h2>Answer 2</h2></button>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-3 col-md-offset-2 text-center">
+					<button class="left-btn answer-button guess-left" id="answer-3"><h2>Answer 3</h2></button>
+				</div>
+				<div class="col-md-3 col-md-offset-2 text-center">
+					<button class="right-btn answer-button guess-right" id="answer-4"><h2>Answer 4</h2></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/triviaGame.js"></script>
+</body>
+</html>
