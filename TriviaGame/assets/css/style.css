@@ -110,6 +110,7 @@ body
 {
 	background-image: url("../images/FD_Background.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Passion One', cursive;
 }
