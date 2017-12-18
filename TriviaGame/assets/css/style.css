@@ -31,7 +31,7 @@
 	4px 3px 1px #1E1E1E;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: auto;
+	background-size: cover;
 	background-origin: padding-box;
 	background-clip: padding-box;
 	background-color: transparent;
@@ -106,6 +106,170 @@
 	line-height: 87.5px;
 }
 
+#start-button
+{
+	background-image: url(../images/StartBar.png);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	background-clip: padding-box;
+	background-size: cover;
+	background-color: transparent;
+	border: none;
+	outline: none;
+
+	height: 62px;
+	width: 973px;
+
+	font-size: 48px;
+	font-style: italic;
+	text-align: center;
+	color: #FFBB2E;
+	line-height: 0px;
+	text-shadow:
+	-4px -4px 1px black,
+	-3px -4px 1px black,
+	-2px -4px 1px black,
+	-1px -4px 1px black,
+	0px -4px 1px black,
+	1px -4px 1px black,
+	2px -4px 1px black,
+	3px -4px 1px black,
+	4px -4px 1px black,
+	5px -4px 1px black,
+	6px -4px 1px black,
+	7px -4px 1px black,
+	8px -4px 1px black,
+	8px -3px 1px black,
+	8px -2px 1px black,
+	8px -1px 1px black,
+	8px 0px 1px black,
+	8px 1px 1px black,
+	8px 2px 1px black,
+	8px 3px 1px black,
+	8px 4px 1px black,
+	8px 5px 1px black,
+	8px 6px 1px black,
+	8px 7px 1px black,
+	8px 8px 1px black,
+	7px 8px 1px black,
+	6px 8px 1px black,
+	5px 8px 1px black,
+	4px 8px 1px black,
+	3px 8px 1px black,
+	2px 8px 1px black,
+	1px 8px 1px black,
+	0px 8px 1px black,
+	-1px 8px 1px black,
+	-2px 8px 1px black,
+	-3px 8px 1px black,
+	-4px 8px 1px black,
+	-4px 7px 1px black,
+	-4px 6px 1px black,
+	-4px 5px 1px black,
+	-4px 4px 1px black,
+	-4px 3px 1px black,
+	-4px 2px 1px black,
+	-4px 1px 1px black,
+	-4px 0px 1px black;
+	
+	margin: 75px 0px;
+
+	transition: color 0.5s;
+}
+#start-button:hover
+{
+	color: #FF7111;
+}
+
+#main-display
+{
+	width: 983px;
+	margin-left: 75px;
+	background: linear-gradient(45deg, #EBD6CB, #BDBBEC, #F3EFD0);
+	padding: 25px 0px;
+	border: solid;
+	border-color: #1E1E1E;
+	border-width: 5px;
+
+	text-shadow: 
+	4px 4px 1px #1E1E1E,
+	3px 4px 1px #1E1E1E,
+	2px 4px 1px #1E1E1E,
+	1px 4px 1px #1E1E1E,
+	0px 4px 1px #1E1E1E,
+	-1px 4px 1px #1E1E1E,
+	-2px 4px 1px #1E1E1E,
+	-2px 3px 1px #1E1E1E,
+	-2px 2px 1px #1E1E1E,
+	-2px 1px 1px #1E1E1E,
+	-2px 0px 1px #1E1E1E,
+	-2px -1px 1px #1E1E1E,
+	-1px -2px 1px #1E1E1E,
+	0px -2px 1px #1E1E1E,
+	1px -2px 1px #1E1E1E,
+	2px -2px 1px #1E1E1E,
+	3px -2px 1px #1E1E1E,
+	4px -2px 1px #1E1E1E,
+	4px -1px 1px #1E1E1E,
+	4px 0px 1px #1E1E1E,
+	4px 1px 1px #1E1E1E,
+	4px 2px 1px #1E1E1E,
+	4px 3px 1px #1E1E1E;
+}
+
+#question
+{
+	text-shadow:
+	-4px -4px 1px black,
+	-3px -4px 1px black,
+	-2px -4px 1px black,
+	-1px -4px 1px black,
+	0px -4px 1px black,
+	1px -4px 1px black,
+	2px -4px 1px black,
+	3px -4px 1px black,
+	4px -4px 1px black,
+	5px -4px 1px black,
+	6px -4px 1px black,
+	7px -4px 1px black,
+	8px -4px 1px black,
+	8px -3px 1px black,
+	8px -2px 1px black,
+	8px -1px 1px black,
+	8px 0px 1px black,
+	8px 1px 1px black,
+	8px 2px 1px black,
+	8px 3px 1px black,
+	8px 4px 1px black,
+	8px 5px 1px black,
+	8px 6px 1px black,
+	8px 7px 1px black,
+	8px 8px 1px black,
+	7px 8px 1px black,
+	6px 8px 1px black,
+	5px 8px 1px black,
+	4px 8px 1px black,
+	3px 8px 1px black,
+	2px 8px 1px black,
+	1px 8px 1px black,
+	0px 8px 1px black,
+	-1px 8px 1px black,
+	-2px 8px 1px black,
+	-3px 8px 1px black,
+	-4px 8px 1px black,
+	-4px 7px 1px black,
+	-4px 6px 1px black,
+	-4px 5px 1px black,
+	-4px 4px 1px black,
+	-4px 3px 1px black,
+	-4px 2px 1px black,
+	-4px 1px 1px black,
+	-4px 0px 1px black,
+	-4px -1px 1px black,
+	-4px -2px 1px black
+	-4px -3px 1px black
+}
+
 body
 {
 	background-image: url("../images/FD_Background.png");
@@ -113,4 +277,5 @@ body
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Passion One', cursive;
+	color: white;
 }
