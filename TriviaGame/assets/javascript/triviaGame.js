@@ -1,4 +1,5 @@
 // Preparing up the page
+$("#game-timer").hide();
 $("#question").hide();
 $(".answer-button").hide();
 $(".results").hide();
@@ -286,6 +287,7 @@ var timer = {
 $("#start-button").on("click", function()
 {
 	$("#start-button").hide();
+	$("#game-timer").show();
 	$("#question").show();
 	$(".answer-button").show();
 	startRound();
