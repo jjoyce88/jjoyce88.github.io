@@ -117,7 +117,7 @@ round11 = {
 	question: "Which of the following moves is used by more than one character?",
 	answer1: "Inhale",
 	answer2: "Chomp",
-	answer3: "Pikmin Toss",
+	answer3: "Thunder",
 	answer4: "Sing",
 	correctAnswer: 1,
 	comment: "The move Inhale is shared by Kirby and King Dedede"
@@ -144,7 +144,7 @@ round13 = {
 },
 
 round14 = {
-	question: "Which of the following characters is on the \"Perfect Attendance crew\"?",
+	question: "Which of the following characters is on the \"Perfect Attendance Crew\"?",
 	answer1: "Falco",
 	answer2: "Pichu",
 	answer3: "Diddy Kong",
