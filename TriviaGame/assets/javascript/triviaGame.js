@@ -93,23 +93,23 @@ round8 = {
 },
 
 round9 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "Who has the least traction in Smash 4?",
+	answer1: "Palutena",
+	answer2: "Corrin",
+	answer3: "Ganondorf",
+	answer4: "Luigi",
 	correctAnswer: 4,
-	comment: ""
+	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back"
 },
 
 round10 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "What is the term for dashing backwards and immediately turning back around without any lag?",
+	answer1: "Dash Turnaround",
+	answer2: "Perfect Pivot",
+	answer3: "Pivot",
+	answer4: "Dash-Cancel",
 	correctAnswer: 2,
-	comment: ""
+	comment: "The technique is frame-perfect and difficult to master, but it can be a very useful tool for spacing"
 },
 
 round11 = {
