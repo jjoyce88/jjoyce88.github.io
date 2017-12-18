@@ -99,7 +99,7 @@ round9 = {
 	answer3: "Ganondorf",
 	answer4: "Luigi",
 	correctAnswer: 4,
-	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back"
+	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back when he is hit"
 },
 
 round10 = {
@@ -123,13 +123,13 @@ round11 = {
 },
 
 round12 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "Which of these characters is a veteran in Smash 4?",
+	answer1: "Pac Man",
+	answer2: "Little Mac",
+	answer3: "Mewtwo",
+	answer4: "Villager",
 	correctAnswer: 3,
-	comment: ""
+	comment: "Although he was not in Brawl, Mewtwo made his first debut in Melee, thus making him a returning character"
 },
 
 round13 = {
@@ -143,13 +143,13 @@ round13 = {
 },
 
 round14 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "Which of the following characters is on the \"Perfect Attendance crew\"?",
+	answer1: "Falco",
+	answer2: "Pichu",
+	answer3: "Diddy Kong",
+	answer4: "Link",
 	correctAnswer: 4,
-	comment: ""
+	comment: "The Perfect Attendance Crew is the 12 characters that have been in all Smash Bros games. They are Mario, Donkey Kong, Link, Samus, Yoshi, Kirby, Fox, Pikachu, Luigi, Captain Falcon, Ness, and Jigglypuff"
 },
 
 round15 = {
