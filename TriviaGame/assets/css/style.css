@@ -170,7 +170,10 @@
 	-4px 3px 1px black,
 	-4px 2px 1px black,
 	-4px 1px 1px black,
-	-4px 0px 1px black;
+	-4px 0px 1px black,
+	-4px -1px 1px black,
+	-4px -2px 1px black,
+	-4px -3px 1px black;
 	
 	margin: 75px 0px;
 
@@ -264,7 +267,10 @@
 	-4px 3px 1px black,
 	-4px 2px 1px black,
 	-4px 1px 1px black,
-	-4px 0px 1px black;
+	-4px 0px 1px black,
+	-4px -1px 1px black,
+	-4px -2px 1px black,
+	-4px -3px 1px black;
 }
 
 body
