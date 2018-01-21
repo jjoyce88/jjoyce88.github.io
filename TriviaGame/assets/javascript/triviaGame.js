@@ -4,6 +4,7 @@ $("#question").hide();
 $(".answer-button").hide();
 $(".results").hide();
 $("#comment").hide();
+$("#retry-button").hide();
 
 // Setting up variables
 var currentRound = 0;
@@ -287,9 +288,9 @@ var timer = {
 $("#start-button").on("click", function()
 {
 	$("#start-button").hide();
-	$("#game-timer").show();
 	$("#question").show();
 	$(".answer-button").show();
+	$("#game-timer").show();
 	startRound();
 });
 
@@ -466,6 +467,11 @@ function revealAnswer(message, guess)
 	}
 }
 
+$("#retry-button").on("click", function()
+{
+	reset();
+});
+
 function winRound()
 {
 	roundsWon ++;
@@ -495,9 +501,27 @@ function roundEnd()
 
 function gameEnd()
 {
+	$("#game-timer").hide();
 	$(".answer-button").hide();
+	$("#comment").hide();
 	$("#question").text("You've reached the end of the quiz! Congratulations!");
 	$("#correct").text(roundsWon);
 	$("#incorrect").text(roundsLost);
 	$(".results").show();
+	$("#retry-button").show();
+}
+
+function reset()
+{
+	$("#question").hide();
+	$(".answer-button").hide();
+	$(".results").hide();
+	$("#comment").hide();
+	$("#retry-button").hide();
+	$("#start-button").show();
+
+	currentRound = 0;
+	roundsWon = 0;
+	roundsLost = 0;
+	playing = false;
 }
