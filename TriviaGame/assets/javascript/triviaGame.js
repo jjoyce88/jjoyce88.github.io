@@ -101,7 +101,7 @@ round9 = {
 	answer3: "Ganondorf",
 	answer4: "Luigi",
 	correctAnswer: 4,
-	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back"
+	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back when hit"
 },
 
 round10 = {
@@ -131,7 +131,7 @@ round12 = {
 	answer3: "Cloud",
 	answer4: "Diddy Kong",
 	correctAnswer: 3,
-	comment: "In fact, many people believe that Cloud should be banned from doubles altogether in tournaments due to how well the character can carry at team"
+	comment: "In fact, many people believe that Cloud should be banned from doubles altogether in tournaments due to how well the character can carry teams"
 },
 
 round13 = {
