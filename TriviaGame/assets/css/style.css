@@ -170,10 +170,7 @@
 	-4px 3px 1px black,
 	-4px 2px 1px black,
 	-4px 1px 1px black,
-	-4px 0px 1px black,
-	-4px -1px 1px black,
-	-4px -2px 1px black,
-	-4px -3px 1px black;
+	-4px 0px 1px black;
 	
 	margin: 75px 0px;
 
@@ -271,6 +268,144 @@
 	-4px -1px 1px black,
 	-4px -2px 1px black,
 	-4px -3px 1px black;
+}
+
+#retry-button
+{
+	height: 92px;
+	width: 507px;
+
+	background-image: url(../images/RetryButton.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-origin: padding-box;
+	background-clip: padding-box;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	
+	font-size: 50px;
+	text-shadow: 
+	-4px -4px 1px black,
+	-3px -4px 1px black,
+	-2px -4px 1px black,
+	-1px -4px 1px black,
+	0px -4px 1px black,
+	1px -4px 1px black,
+	2px -4px 1px black,
+	3px -4px 1px black,
+	4px -4px 1px black,
+	5px -4px 1px black,
+	6px -4px 1px black,
+	7px -4px 1px black,
+	8px -4px 1px black,
+	8px -3px 1px black,
+	8px -2px 1px black,
+	8px -1px 1px black,
+	8px 0px 1px black,
+	8px 1px 1px black,
+	8px 2px 1px black,
+	8px 3px 1px black,
+	8px 4px 1px black,
+	8px 5px 1px black,
+	8px 6px 1px black,
+	8px 7px 1px black,
+	8px 8px 1px black,
+	7px 8px 1px black,
+	6px 8px 1px black,
+	5px 8px 1px black,
+	4px 8px 1px black,
+	3px 8px 1px black,
+	2px 8px 1px black,
+	1px 8px 1px black,
+	0px 8px 1px black,
+	-1px 8px 1px black,
+	-2px 8px 1px black,
+	-3px 8px 1px black,
+	-4px 8px 1px black,
+	-4px 7px 1px black,
+	-4px 6px 1px black,
+	-4px 5px 1px black,
+	-4px 4px 1px black,
+	-4px 3px 1px black,
+	-4px 2px 1px black,
+	-4px 1px 1px black,
+	-4px 0px 1px black,
+	-4px -1px 1px black,
+	-4px -2px 1px black,
+	-4px -3px 1px black;
+
+	margin-top: 25px;
+}
+
+#retry-button
+{
+	height: 92px;
+	width: 507px;
+
+	background-image: url(../images/RetryButton.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-origin: padding-box;
+	background-clip: padding-box;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	
+	font-size: 50px;
+	text-shadow: 
+	-4px -4px 1px black,
+	-3px -4px 1px black,
+	-2px -4px 1px black,
+	-1px -4px 1px black,
+	0px -4px 1px black,
+	1px -4px 1px black,
+	2px -4px 1px black,
+	3px -4px 1px black,
+	4px -4px 1px black,
+	5px -4px 1px black,
+	6px -4px 1px black,
+	7px -4px 1px black,
+	8px -4px 1px black,
+	8px -3px 1px black,
+	8px -2px 1px black,
+	8px -1px 1px black,
+	8px 0px 1px black,
+	8px 1px 1px black,
+	8px 2px 1px black,
+	8px 3px 1px black,
+	8px 4px 1px black,
+	8px 5px 1px black,
+	8px 6px 1px black,
+	8px 7px 1px black,
+	8px 8px 1px black,
+	7px 8px 1px black,
+	6px 8px 1px black,
+	5px 8px 1px black,
+	4px 8px 1px black,
+	3px 8px 1px black,
+	2px 8px 1px black,
+	1px 8px 1px black,
+	0px 8px 1px black,
+	-1px 8px 1px black,
+	-2px 8px 1px black,
+	-3px 8px 1px black,
+	-4px 8px 1px black,
+	-4px 7px 1px black,
+	-4px 6px 1px black,
+	-4px 5px 1px black,
+	-4px 4px 1px black,
+	-4px 3px 1px black,
+	-4px 2px 1px black,
+	-4px 1px 1px black,
+	-4px 0px 1px black,
+	-4px -1px 1px black,
+	-4px -2px 1px black,
+	-4px -3px 1px black;
+
+	margin-top: 25px;
 }
 
 body
