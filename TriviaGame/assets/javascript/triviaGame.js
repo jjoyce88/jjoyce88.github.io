@@ -4,6 +4,7 @@ $("#question").hide();
 $(".answer-button").hide();
 $(".results").hide();
 $("#comment").hide();
+$("#retry-button").hide();
 
 // Setting up variables
 var currentRound = 0;
@@ -100,7 +101,7 @@ round9 = {
 	answer3: "Ganondorf",
 	answer4: "Luigi",
 	correctAnswer: 4,
-	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back when he is hit"
+	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back"
 },
 
 round10 = {
@@ -117,100 +118,100 @@ round11 = {
 	question: "Which of the following moves is used by more than one character?",
 	answer1: "Inhale",
 	answer2: "Chomp",
-	answer3: "Thunder",
+	answer3: "Pikmin Toss",
 	answer4: "Sing",
 	correctAnswer: 1,
 	comment: "The move Inhale is shared by Kirby and King Dedede"
 },
 
 round12 = {
-	question: "Which of these characters is a veteran in Smash 4?",
-	answer1: "Pac Man",
-	answer2: "Little Mac",
-	answer3: "Mewtwo",
-	answer4: "Villager",
+	question: "Which of the following is thought to be the best character in doubles (2v2) games?",
+	answer1: "Mario",
+	answer2: "Bayonetta",
+	answer3: "Cloud",
+	answer4: "Diddy Kong",
 	correctAnswer: 3,
-	comment: "Although he was not in Brawl, Mewtwo made his first debut in Melee, thus making him a returning character"
+	comment: "In fact, many people believe that Cloud should be banned from doubles altogether in tournaments due to how well the character can carry at team"
 },
 
 round13 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "By how much does Villager's Pocket multiply a projectile or item's base damage?",
+	answer1: "x2.0",
+	answer2: "x1.9",
+	answer3: "x1.1",
+	answer4: "x1.5",
 	correctAnswer: 2,
-	comment: ""
+	comment: "The move has one of the best projectile damage multipliers in the game. It is second only to Ness' Forward Smash, which has a multiplier of x2.0"
 },
 
 round14 = {
-	question: "Which of the following characters is on the \"Perfect Attendance Crew\"?",
-	answer1: "Falco",
-	answer2: "Pichu",
-	answer3: "Diddy Kong",
-	answer4: "Link",
+	question: "Which of these characters is a veteran in Smash 4?",
+	answer1: "Pac-Man",
+	answer2: "Little Mac",
+	answer3: "Villager",
+	answer4: "Mewtwo",
 	correctAnswer: 4,
-	comment: "The Perfect Attendance Crew is the 12 characters that have been in all Smash Bros games. They are Mario, Donkey Kong, Link, Samus, Yoshi, Kirby, Fox, Pikachu, Luigi, Captain Falcon, Ness, and Jigglypuff"
+	comment: "Although he was not included in Brawl, Mewtwo made his first debut in Melee, thus making him a returning character"
 },
 
 round15 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "Which of the following characters is on the \"Perfect Attendance Crew\"?",
+	answer1: "Link",
+	answer2: "Diddy Kong",
+	answer3: "Falco",
+	answer4: "Pichu",
 	correctAnswer: 1,
-	comment: ""
+	comment: "The Perfect Attendance Crew is the 12 characters that have been in all Smash Bros games. They are Mario, Donkey Kong, Link, Samus, Yoshi, Kirby, Fox, Pikachu, Luigi, Captain Falcon, Ness, and Jigglypuff"
 },
 
 round16 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "How many different enemies appear on Pyrosphere?",
+	answer1: "1",
+	answer2: "4",
+	answer3: "5",
+	answer4: "3",
 	correctAnswer: 2,
-	comment: ""
+	comment: "These enemies include FG II-Grahams, Joulions, Zeroes, and - the main hazard of the stage, and Samus' arch enemy - Ridley"
 },
 
 round17 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "What is the name of Diddy Kong's famous Down Throw to Up Air combo?",
+	answer1: "Ding-Dong",
+	answer2: "Hah-Hah",
+	answer3: "Hoo-Hah",
+	answer4: "Wombo Combo",
 	correctAnswer: 3,
-	comment: ""
+	comment: "The combo inspired people to name the Dthrow -> Uair combos of other characters, such as R.O.B.'s Beep-Boop, Bowser's Koo-Pa, and Mr. Game & Watch's Toot Toot"
 },
 
 round18 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "What is the term used for grabbing the ledge of the stage immediately after an opponent to force them off of it?",
+	answer1: "Ledge Trump",
+	answer2: "Edge-Hogging",
+	answer3: "Ledge Snap",
+	answer4: "Edge-Guarding",
 	correctAnswer: 1,
-	comment: ""
+	comment: "Though it is a difficult technique to master, ledge trumping is a very effective edgeguarding tool, as it can leave the opponent vulnerable once they let go of the ledge"
 },
 
 round19 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "What is the maximum amount of damage that a counter attack can deal?",
+	answer1: "100",
+	answer2: "75",
+	answer3: "50",
+	answer4: "52",
 	correctAnswer: 4,
-	comment: ""
+	comment: "No matter how powerful the countered attack is, the counter will always cap off at 52%"
 },
 
 round20 = {
-	question: "",
-	answer1: "",
-	answer2: "",
-	answer3: "",
-	answer4: "",
+	question: "What is the strongest single attack in Smash 4?",
+	answer1: "Dedede's Fsmash",
+	answer2: "Flare Blade",
+	answer3: "Aura Sphere",
+	answer4: "Giant Punch",
 	correctAnswer: 2,
-	comment: ""
+	comment: "Roy's fully charged Flare Blade deals a whopping 50% - the highest damage that any move can do by itself without the assistance of reflectors or counters"
 }
 
 ];
@@ -287,9 +288,9 @@ var timer = {
 $("#start-button").on("click", function()
 {
 	$("#start-button").hide();
-	$("#game-timer").show();
 	$("#question").show();
 	$(".answer-button").show();
+	$("#game-timer").show();
 	startRound();
 });
 
@@ -466,6 +467,11 @@ function revealAnswer(message, guess)
 	}
 }
 
+$("#retry-button").on("click", function()
+{
+	reset();
+});
+
 function winRound()
 {
 	roundsWon ++;
@@ -495,9 +501,27 @@ function roundEnd()
 
 function gameEnd()
 {
+	$("#game-timer").hide();
 	$(".answer-button").hide();
+	$("#comment").hide();
 	$("#question").text("You've reached the end of the quiz! Congratulations!");
 	$("#correct").text(roundsWon);
 	$("#incorrect").text(roundsLost);
 	$(".results").show();
+	$("#retry-button").show();
+}
+
+function reset()
+{
+	$("#question").hide();
+	$(".answer-button").hide();
+	$(".results").hide();
+	$("#comment").hide();
+	$("#retry-button").hide();
+	$("#start-button").show();
+
+	currentRound = 0;
+	roundsWon = 0;
+	roundsLost = 0;
+	playing = false;
 }
