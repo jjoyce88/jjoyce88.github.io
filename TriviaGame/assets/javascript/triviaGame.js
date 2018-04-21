@@ -101,7 +101,11 @@ round9 = {
 	answer3: "Ganondorf",
 	answer4: "Luigi",
 	correctAnswer: 4,
+<<<<<<< HEAD
 	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back"
+=======
+	comment: "In fact, he's so slippery that some moves are safe on his shield when they usually aren't because Luigi slides so far back when hit"
+>>>>>>> e656b68694fc0889878836b0392bafc4f3930a31
 },
 
 round10 = {
@@ -131,7 +135,11 @@ round12 = {
 	answer3: "Cloud",
 	answer4: "Diddy Kong",
 	correctAnswer: 3,
+<<<<<<< HEAD
 	comment: "In fact, many people believe that Cloud should be banned from doubles altogether in tournaments due to how well the character can carry at team"
+=======
+	comment: "In fact, many people believe that Cloud should be banned from doubles altogether in tournaments due to how well the character can carry teams"
+>>>>>>> e656b68694fc0889878836b0392bafc4f3930a31
 },
 
 round13 = {
@@ -509,6 +517,24 @@ function gameEnd()
 	$("#incorrect").text(roundsLost);
 	$(".results").show();
 	$("#retry-button").show();
+<<<<<<< HEAD
+=======
+}
+
+function reset()
+{
+	$("#question").hide();
+	$(".answer-button").hide();
+	$(".results").hide();
+	$("#comment").hide();
+	$("#retry-button").hide();
+	$("#start-button").show();
+
+	currentRound = 0;
+	roundsWon = 0;
+	roundsLost = 0;
+	playing = false;
+>>>>>>> e656b68694fc0889878836b0392bafc4f3930a31
 }
 
 function reset()
